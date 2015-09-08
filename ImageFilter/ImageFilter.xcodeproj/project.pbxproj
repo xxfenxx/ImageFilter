@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D71B72E1B9EDFEF00E92759 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B72D1B9EDFEF00E92759 /* RootViewController.m */; };
 		3D968A181B9E860800C6E21F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D968A171B9E860800C6E21F /* main.m */; };
 		3D968A1B1B9E860800C6E21F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D968A1A1B9E860800C6E21F /* AppDelegate.m */; };
 		3D968A1E1B9E860800C6E21F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D968A1D1B9E860800C6E21F /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D71B72C1B9EDFEF00E92759 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3D71B72D1B9EDFEF00E92759 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		3D968A121B9E860800C6E21F /* ImageFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D968A161B9E860800C6E21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D968A171B9E860800C6E21F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				3D968A1A1B9E860800C6E21F /* AppDelegate.m */,
 				3D968A1C1B9E860800C6E21F /* ViewController.h */,
 				3D968A1D1B9E860800C6E21F /* ViewController.m */,
+				3D71B72C1B9EDFEF00E92759 /* RootViewController.h */,
+				3D71B72D1B9EDFEF00E92759 /* RootViewController.m */,
 				3D968A1F1B9E860800C6E21F /* Main.storyboard */,
 				3D968A221B9E860800C6E21F /* Images.xcassets */,
 				3D968A241B9E860800C6E21F /* LaunchScreen.xib */,
@@ -232,6 +237,7 @@
 				3D968A3F1B9E8A4400C6E21F /* Filter.m in Sources */,
 				3D968A1B1B9E860800C6E21F /* AppDelegate.m in Sources */,
 				3D968A181B9E860800C6E21F /* main.m in Sources */,
+				3D71B72E1B9EDFEF00E92759 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +432,7 @@
 				3D968A371B9E860800C6E21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D968A381B9E860800C6E21F /* Build configuration list for PBXNativeTarget "ImageFilterTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				3D968A3A1B9E860800C6E21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
