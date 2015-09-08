@@ -31,6 +31,8 @@
         
     [super viewDidLoad];
     
+    NSLog(@"Hello world!");
+    
     /** 要得到某种滤镜效果要自己手动调
      *  TYPE     : 可以从Filter头文件中找
      *  注意:
