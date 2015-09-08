@@ -37,7 +37,6 @@
     
     NSLog(@"Hello world! third.");
     
-    
     NSLog(@"Hello world! fourth.");
     
     /** 要得到某种滤镜效果要自己手动调
@@ -66,7 +65,10 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+    NSLog(@"didReceiveMemoryWarning");
+
 }
 
 @end
