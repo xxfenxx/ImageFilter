@@ -19,7 +19,7 @@
 }
 
 - (void)dealError {
-    
+    NSLog(@"dealError");
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
