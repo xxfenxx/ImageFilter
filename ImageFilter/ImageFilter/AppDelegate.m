@@ -15,7 +15,7 @@
 @implementation AppDelegate
 
 - (void)newMethod {
-    
+    NSLog(@"This is a new Method!");
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
