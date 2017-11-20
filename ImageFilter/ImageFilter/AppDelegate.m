@@ -18,6 +18,10 @@
     NSLog(@"This is a new Method!");
 }
 
+- (void)dealError {
+    
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
