@@ -14,14 +14,6 @@
 
 @implementation AppDelegate
 
-- (void)newMethod {
-    NSLog(@"This is a new Method!");
-}
-
-- (void)dealError {
-    NSLog(@"dealError");
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
